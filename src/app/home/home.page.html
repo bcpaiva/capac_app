@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-button (click)="check()">
+    Check
+  </ion-button>
+
+  <ion-button (click)="show()">
+    Show
+  </ion-button>
+  <ion-button (click)="credentials()">
+    Login Credentials
+    </ion-button>
+    <ion-button (click)="api()">
+      API Call Button
+      </ion-button>
+      <ion-button onclick="window.plugins.toast.showLongBottom('Received 200 response from server! Toggling to next page.', function(a){console.log('toast success: ' + a)}, function(b){alert('toast error: ' + b)})">Received 200 Response</ion-button>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "appId": "com.bcpaiva.fingerapp",
+  "appName": "fingerApp",
+  "bundledWebRuntime": false,
+  "webDir": "www",
+  "linuxAndroidStudioPath": "/home/niklas/Tools/android-studio/bin/studio.sh"
+}
